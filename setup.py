@@ -32,6 +32,7 @@ setuptools.setup(
     url="https://github.com/SoftwareQuTech/CQC-Python",
     include_package_data=True,
     packages=setuptools.find_packages(),
+    data_files=[('./', ['requirements.txt'])],
     install_requires=install_requires,
     classifiers=[
         "Programming Language :: Python :: 3",
